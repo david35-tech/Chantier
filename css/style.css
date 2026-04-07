@@ -1,0 +1,30 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  background: #f5f5f7;
+  color: #111827;
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.card {
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+#map {
+  height: 250px;
+  border-radius: 12px;
+  display: none;
+  margin-top: 10px;
+}
+
+#adresseSuggestions {
+  max-height: 200px;
+  overflow-y: auto;
+  border-radius: 10px;
+  z-index: 1000;
+}
